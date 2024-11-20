@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+src/logs/
+!src/logs/.gitkeep
+
+
+__pycache__/
