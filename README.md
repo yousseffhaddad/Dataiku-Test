@@ -30,12 +30,12 @@ The purpose of this repository is to implement a C3PO program that computes the 
 ### **Setup**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
-   cd Dataiku - technicalTest/src
+   git clone https://github.com/yousseffhaddad/Dataiku-Test.git
+   cd Dataiku-Test
    
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r src/requirements.txt
    
 3. Configure paths of the json files in the src/config/app.env file:
    ```bash
@@ -44,5 +44,5 @@ The purpose of this repository is to implement a C3PO program that computes the 
    
 5. Run main.py script:
    ```bash
-   python3 main.py 
+   python3 src/main.py 
 
