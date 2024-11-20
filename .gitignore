@@ -10,7 +10,7 @@ env/
 *.swp
 
 # Logs
-src/logs/
+src/logs/*
 !src/logs/.gitkeep
 
 
