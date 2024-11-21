@@ -31,18 +31,18 @@ The purpose of this repository is to implement a C3PO program that computes the 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yousseffhaddad/Dataiku-Test.git
-   cd Dataiku-Test
+   cd Dataiku-Test/src
    
 2. Install dependencies:
    ```bash
-   pip install -r src/requirements.txt
+   pip install -r requirements.txt
    
-3. Configure paths of the json files in the src/config/app.env file:
+3. Configure paths of the json files in the src/config/app.env file (examples can be found in src/assets/examples, or you can use your own files):
    ```bash
-   MILLENNIUM_FALCON_FILE_PATH=src/assets/examples/example4/millennium-falcon.json
-   EMPIRE_JSON_FILE_PATH=src/assets/examples/example4/empire.json
+   MILLENNIUM_FALCON_FILE_PATH=assets/examples/example4/millennium-falcon.json
+   EMPIRE_JSON_FILE_PATH=assets/examples/example4/empire.json
    
 5. Run main.py script:
    ```bash
-   python3 src/main.py 
+   python3 main.py 
 
