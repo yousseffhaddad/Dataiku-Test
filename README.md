@@ -42,7 +42,11 @@ The purpose of this repository is to implement a C3PO program that computes the 
    MILLENNIUM_FALCON_FILE_PATH=assets/examples/example4/millennium-falcon.json
    EMPIRE_JSON_FILE_PATH=assets/examples/example4/empire.json
    
-5. Run main.py script:
+4. Run main.py script:
    ```bash
    python3 main.py 
+   
+Here is an image of the output example :
+
+![Output](documentation/images/Output.png)
 
