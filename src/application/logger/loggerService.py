@@ -26,7 +26,7 @@ class LoggerService (AbstractLoggerService):
         # Prevent duplicate log entries if the logger already has handlers
         if not self._logger.hasHandlers():
             # Create a file handler
-            file_handler = logging.FileHandler("src/logs/app.log", mode="a", encoding="utf-8")
+            file_handler = logging.FileHandler("./logs/app.log", mode="a", encoding="utf-8")
             file_handler.setLevel(logging.DEBUG)
 
             # Create a formatter

@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # Access the Application container which includes the Services container
     application_container = Application()
 
-    load_dotenv(dotenv_path='src/config/app.env')
+    load_dotenv(dotenv_path='./config/app.env')
 
     # Get the variables
     millennium_falcon_file_path = os.getenv('MILLENNIUM_FALCON_FILE_PATH')
